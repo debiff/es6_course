@@ -4,6 +4,7 @@
 
 - Syntax
     - [Let & const](https://github.com/debiff/es6_course#Let-&-Const)
+    - [Template literal](https://github.com/debiff/es6_course#Template-literal)
 
 
 ## Let-&-Const 
@@ -31,3 +32,16 @@ This behavior prevents variables from being accessed only until after they’ve 
 - Variables declared with ```let``` can be reassigned, but can’t be redeclared in the same scope.
 - Variables declared with ```const``` must be assigned an initial value, but can’t be redeclared in the same scope, 
 and can’t be reassigned.
+
+## Template literal
+
+Prior to ES6, the old way to concatenate strings together was by using the string concatenation operator (```+```).
+That’s changed with the introduction of *template literals*.
+
+**Template literals** are essentially string literals that include embedded expressions.
+
+Denoted with backticks (``` `` ```) instead of single quotes (```''```) or double quotes (```""```), template literals
+can contain placeholders which are represented using ```${expression}```.
+
+By using template literals, you can drop the quotes along with the string concatenation operator. Also, you can 
+reference the object's properties inside expressions.
