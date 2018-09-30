@@ -3,8 +3,8 @@
 #### Table of content
 
 - Syntax
-    - [Let & const](https://github.com/debiff/es6_course#Let-&-Const)
-    - [Template literal](https://github.com/debiff/es6_course#Template-literal)
+    - [Let & const](#let-&-const)
+    - [Template literal](#template-literal)
 
 
 ## Let-&-Const 
